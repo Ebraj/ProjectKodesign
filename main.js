@@ -88,7 +88,7 @@ const init = () => {
 		scale:0.5,
 		stagger:0.35,
 		scrollTrigger:{
-			start:'center bottom',
+			start:'top bottom',
 			trigger:'#work__section',
 		}
 	})
