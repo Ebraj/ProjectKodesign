@@ -42,14 +42,14 @@ const init = () => {
 	});
 
 	// Course Section Animation
-	gsap.from('#course__top',{
-		opacity:0,
-		y:-20,
-		scrollTrigger:{
-			start:'top center',
-			trigger:'#course__section',
-		}
-	})
+// 	gsap.from('#course__top',{
+// 		opacity:0,
+// 		y:-20,
+// 		scrollTrigger:{
+// 			start:'top center',
+// 			trigger:'#course__section',
+// 		}
+// 	})
 	gsap.from('#left__container',{
 		opacity:0,
 		x:-40,
@@ -109,15 +109,15 @@ const init = () => {
 		}
 	});
 
-	// Animating the about Section
-	gsap.from('#about__top',{
-		opacity:0,
-		y:-20,
-		scrollTrigger:{
-			start:'top center',
-			trigger:'#about__section',
-		}
-	})
+// 	// Animating the about Section
+// 	gsap.from('#about__top',{
+// 		opacity:0,
+// 		y:-20,
+// 		scrollTrigger:{
+// 			start:'top center',
+// 			trigger:'#about__section',
+// 		}
+// 	})
 	gsap.from('.left__container__about',{
 		opacity:0,
 		x:-40,
