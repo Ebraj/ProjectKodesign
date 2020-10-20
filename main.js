@@ -1,3 +1,8 @@
+// Removing the Preloader
+let preloader = document.getElementById('loading');
+const removePreloader = () => {
+	preloader.style.display = 'none';
+}
 gsap.registerPlugin(ScrollTrigger);
 
 // Setting the timeline
